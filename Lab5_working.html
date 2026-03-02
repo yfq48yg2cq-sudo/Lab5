@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>Document</title>
-  <style>
-    div {margin-top: 15px}
-  </style>
 </head>
 <body>
-  <form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+  <h1>Volunteer Form</h1>
+  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
     <fieldset>
-    <legend>Text Entry Controls</legend>
-      <div>
-        <label>First Name: <input type="text" name="text_field" placeholder="first name"></label>
-        <label>Last Name: <input type="text" name="text_field" placeholder="last name"></label>
-        <label>First Name: <input type="text" name="text_field" placeholder="first name"></label>
-        <label>First Name: <input type="text" name="text_field" placeholder="first name"></label>
-        <label>First Name: <input type="text" name="text_field" placeholder="first name"></label>
-      </div>
-      <div>
-        <label><input type="email" name="email_field" placeholder="email here"></label>
-      </div>
+      <legend>My Info</legend>
+      <div><label>first name: <input size="100" type="text" name="first_name_field"></label></div>
+      <div><label>last name: <input size="100" type="text" name="last_name_field"></label></div>
+      <div><label>phone: <input size="100" type="text" name="phone_field"></label></div>
+      <div><label>email: <input size="100" type="text" name="email_field"></label></div>
+      <div>Gender: </div>
       <div>
         <label>Male <input type="radio" name="gender_field" value="male"></label>
         <label>Female <input type="radio" name="gender_field" value="female"></label>
       </div>
+      <div>Age: </div>
       <div>Age: </div>
       <select name="age_field">
         <option>under 18</option>
